@@ -5,3 +5,9 @@ class Update_viagithub:
         self.__release_url = ""
     def get_version(self):
         return self.__version
+    def get_current_commit_sha_id(self):
+        return self.__commit_sha_id
+    def get_total_commits(self):
+        return self.__total_commits
+    def get_commit_sha_id(self):
+        return self.__commit_sha_id
